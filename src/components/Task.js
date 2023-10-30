@@ -1,9 +1,9 @@
 import React from "react";
 
 function Task() {
-
-  function handleDelete() {
-    Task.filter
+  
+  const handleDelete =()=>{
+    props.onDelete(props.task.id)
   }
   return (
     <div className="task">
